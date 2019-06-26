@@ -3,6 +3,7 @@
 
   vars:
     ruby_version: 2.6.3
+    jekyll_version: 3.8.5
 
   pre_tasks:
     - name: Update apt cache
@@ -24,3 +25,8 @@
         marker: "# {mark} ANSIBLE MANAGED BLOCK (GEMS)"
         block: |
           export PATH="$HOME/.gem/ruby/{{ ruby_version }}/bin:$PATH"
+
+    - name: Install gems
+      gem: name={{ item.name }} version={{ item.version }} executable=~/.rbenv/versions/{{ ruby_version }}/bin/gem
+      with_items:
+      - { name: jekyll, version: "{{ jekyll_version }}" }
