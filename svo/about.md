@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I am a quality focused software delivery professional with expertise in the area of Development Team and Stakeholder Management. I have significant experience in developing software solutions from an architectural, engineering and quality assurance perspective. I am an advocate of agile and post agile approaches with experience in the design, implementation and execution of various processes and procedures. I believe productive teams need to communicate and collaborate and strive to build relationships and environments to that end.
